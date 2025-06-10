@@ -19,7 +19,7 @@ class Note(models.Model):
     created.
     :type created_at: datetime.datetime
     """
-    title = models.CharField(max_length=100)
+    title = models.CharField(max_length=105)
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
 
